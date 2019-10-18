@@ -1,3 +1,63 @@
 Created a environment variable PYTHONPATH.
 
 Updated save method with *args and **args
+------------------------------------------------------------------------------------------------------------------------
+Python Django Framework: (MVT)
+------------------------
+
+django-admin
+(lists the diffrent commands available with in django)
+
+django-admin startproject <project name>
+(creates a django project and multiple apps can be created inside a project and also a app can be utilised in mulyiple projects.)
+
+python manage.py runserver
+(runs the django server on localhost port 8000)
+
+python manage.py startapp <app name>
+(creates a app inside the django project.)
+
+------------------------------------------------------------------
+project structure:
+	blog (app name):
+		__init__.py
+		admin.py
+		apps.py
+		migrations:
+			__init__.py
+		models.py
+		tests.py
+		views.py
+	db.sqlite3
+	django_project (project name):
+		__init__.py
+		settings.py
+		urls.py
+		wsgi.py
+	manage.py
+------------------------------------------------------------------
+
+python manage.py makemigrations
+(makes the migration file)
+
+python manage.py migrate
+(creates the database tables)
+
+python manage.py createsuperuser
+(creates a admin user to access the admin page)
+
+python manage.py shell
+(Gives the python shell prompt and python commands and django things can be run)
+
+authentication in django can be done as,
+by importing,
+from django.contrib.auth.decorators import login_required
+and then putting this as a decorator on the route function which needs to be authenticated before getting access.
+and the page where django looks for loggin in can be updated in settings file as,
+LOGIN_URL = 'login'
+
+The same thing in class based view is done as,
+importing
+from django.contrib.auth.mixins import LoginRequiredMixin
+and then putting this LoginRequiredMixin in class based view as the very first parameter like,
+class PostCreateView(LoginRequiredMixin, CreateView):
