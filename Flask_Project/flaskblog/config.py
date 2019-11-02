@@ -12,4 +12,4 @@ class Config:
     #MAIL_USERNAME = os.environ.get('EMAIL_USER')
     MAIL_USERNAME = 'abhishekchaurasia27@gmail.com'
     #MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-    MAIL_USERNAME = '@HOME@ab270593'
+    MAIL_USERNAME = '*********'
