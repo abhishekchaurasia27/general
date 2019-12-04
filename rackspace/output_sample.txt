@@ -1,0 +1,18 @@
+Total number of unique domains found in C:\Users\Abhishek\PycharmProjects\general\rackspace\sample.txt are 14
+
+List of each domain with its count in the input file are:{
+  "Guadalupesubcutaneous.net": 1,
+  "betteringwoman.net": 1,
+  "bulldozingmoping.biz": 1,
+  "bystandersboogieing.biz": 1,
+  "conditionalsfusible.com": 1,
+  "deployedintergalactic.net": 1,
+  "editorializeperennials.net": 1,
+  "emceesoppresses.co.uk": 1,
+  "humanizeroverall.com": 1,
+  "mumsuncharacteristic.net": 1,
+  "pingingIrtish.biz": 1,
+  "puddlinggloomy.biz": 1,
+  "rotatingcoalesce.com": 1,
+  "zealouslyunformed.co.uk": 1
+}
