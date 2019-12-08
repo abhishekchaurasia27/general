@@ -1,0 +1,79 @@
+HackerEarth/Rank Programs and Learnings.
+Shell Scripting, Unix Commands
+hash of hashes
+
+Interview- Tell me about your self.
+perl oops
+export and export_ok in perl
+
+Linux Shell scripting. <Notes>
+HackerEarth DSA
+Hacker Rank Programming.
+Angular crontab
+write belzabar code.
+congnizant problem.
+SQL query practice
+
+Rsh
+Ssh
+Tunnel
+to create report dynamically,
+of hash of hashes for logs containing, 
+ip user website
+inode number
+
+exec in perl
+ssh in perl/shell
+
+-----------------------------------------------------
+MVC
+Python -frameworks and modules.
+Spark
+hive
+hadoop
+---------------------------------------------------
+Pandas:
+
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+
+https://www.kaggle.com/grroverpr/pandas-cheatsheet
+
+https://www.kaggle.com/jboysen/quick-tutorial-flatten-nested-json-in-pandas
+ 
+
+Numpy:
+
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf
+
+ 
+General:
+
+http://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf
+
+https://sinxloud.com/python-cheat-sheet-beginner-advanced/
+------------------------------------------------------------------------
+Coderpad
+
+---------------------------
+Python Interview Questions:
+---------------------------
+MRO
+how to print MRO : __mro__
+Can MRO be modified?
+OOPs concepts
+calling functions from multilevel inheritance using super()
+
+decorators
+generators
+itrators
+context managers
+memory handling in private heap area in python
+diffrence between methods and functions
+
+unit tests
+
+Django/FLASK FW
+Pandas Numpy
+
+sample datasets:
+https://catalog.data.gov/dataset
