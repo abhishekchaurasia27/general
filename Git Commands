@@ -1,0 +1,28 @@
+git log
+git status
+git diff <commit hash> <commit hash> (versions are optional)
+git checkout <branch>
+git branch
+git branch -d<or -D>
+git pull <origin master> (or branch name ot mearge two branches)
+git push origin master
+git cherry-pick <commit hash> (picks the spcific commit to the current branch - does nto delete commit from actual place)
+git commit -amend (to change/update the commits)
+git add -A
+git reset --soft <commit hash> (resets to specific commit but retains the changes in staging area)
+git reset <commit hash> (mixed) (resets to specific commit but retains the changes unstaged where ever they were before)
+git reset --hard <commit hash> (resets to specific commit and removes the current changes)
+git reset
+git clean -df (cleans untracked files and directories from git)
+git revert <commit hash>
+git reflog (to check the deleted commits)
+
+git difftool
+git mergetool
+
+git stash save "message"
+git stash list
+git stash apply <stash number from stash list> (apply the stash to current branch but does not delete them from stash list)
+git stash pop (pop's the top stash and removes it from stash list.)
+git stash drop <stash number>
+git stash clear
